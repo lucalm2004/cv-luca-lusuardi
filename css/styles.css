@@ -102,6 +102,51 @@ height: auto;
     margin-top: 4.4rem;
 }
 
+.new{
+    font-size: 10px;
+}
+
+.en{
+    color: var(--text-color);
+}
+.es{
+    color: var(--text-color);
+}
+.check{
+    position: relative;
+
+    width:50px;
+}
+.check:before{
+    content: '';
+    position: absolute;
+    width: 50px;
+    height: 25px;
+    background: white;
+    border-radius: 25px;
+}
+
+.check:after{
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background: #2fbf71;
+    border-radius: 12px;
+    transition: 0.25s;
+    border: 2px solid white;
+    box-sizing: border-box;
+}
+
+.check:checked:after{
+    left: 25px;
+    border: 2px solid white;
+}
+
+.check:checked:before{
+    background: #2fbf71 ;
+}
+
 .caja {
     background-color: #0b0b13;
     padding: 40px 30px;
