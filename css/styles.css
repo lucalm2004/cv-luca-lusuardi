@@ -413,10 +413,12 @@ margin-bottom: 25px;
     }
 
     @media only screen and (max-width: 830px) {
+       
+        
         :root{
-            --big-font: 2rem;
-            --h2-font: 1rem;
-            --p-font: 0.7rem;
+            --big-font: 1.5rem;
+            --h2-font: 0.7rem;
+            --p-font: 0.5rem;
     
             }   
 
@@ -430,6 +432,12 @@ margin-bottom: 25px;
         height: auto;
 
             }
+            .navegacion a{
+                color: var(--text-color);
+                font-size: 0.8rem;
+                padding: 10px 20px;
+                font-weight: 500;
+            }
         
         header{
                 padding: 18px 3%;
@@ -438,8 +446,9 @@ margin-bottom: 25px;
         #menu-icon {
             display: block;
         }
+    
 
-        .navegacion {
+       /* .navegacion {
             position: absolute;
             top: 100%;
             left: 0;
@@ -451,13 +460,7 @@ margin-bottom: 25px;
             text-align: left;
             transition: 0.2s ease;
         }
-        .navegacion a{
-            display: block;
-            padding: 1rem;
-            border-left: 2px solid var(--main-color);
-            margin: 1rem;
-            display: block;
-        }
+        
         #primero:hover {
             background: var(--main-color);
             color: var(--text-color);        
@@ -473,9 +476,9 @@ margin-bottom: 25px;
     color: var(--text-color);        
 }#quinto:hover {
     background: var(--main-color);
-    color: var(--text-color);        
+    color: var(--text-color);     */   
 }
-}
+
 
 @media only screen and (max-width: 700px) {
     .inicio {
@@ -484,6 +487,10 @@ margin-bottom: 25px;
         text-align: center;
         margin-top: 80px;
         height: 100vh;
+    }
+
+    .navegacion a {
+        font-size: 0.65rem;
     }
 
     .inicio-texto p{
