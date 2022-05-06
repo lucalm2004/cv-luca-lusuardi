@@ -437,7 +437,7 @@ margin-bottom: 25px;
             }
             .navegacion a{
                 color: var(--text-color);
-                font-size: 0.8rem;
+                font-size: 0.6rem;
                 padding: 10px 20px;
                 font-weight: 500;
             }
@@ -493,7 +493,7 @@ margin-bottom: 25px;
     }
 
     .navegacion a {
-        font-size: 0.65rem;
+        font-size: 0.55rem;
     }
 
     .inicio-texto p{
